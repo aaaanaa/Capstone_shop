@@ -62,7 +62,7 @@ function CreatePost() {
                         <button className="delete-btn">삭제</button>
                     </div>
                     <form>
-                        <div>
+                    <div>
                             <label htmlFor="nickName">작성자: </label>
                             <textarea id="nickName" placeholder="이름을 입력하세요" rows="1" className="textarea"></textarea>
                         </div>
