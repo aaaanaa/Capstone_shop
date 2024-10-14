@@ -57,6 +57,10 @@ function CreatePost() {
             <div className="middle">
                 <div className="post-create">
                     <h2>글 작성하기</h2>
+                    <div className="action-buttons">
+                        <button className="edit-btn">수정</button>
+                        <button className="delete-btn">삭제</button>
+                    </div>
                     <form>
                         <div>
                             <label htmlFor="nickName">작성자: </label>
